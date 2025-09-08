@@ -1,0 +1,17 @@
+{
+  "build": {
+    "builder": "nixpacks"
+  },
+  "deploy": {
+    "volumes": [
+      {
+        "name": "auth",
+        "mountPath": "/auth"
+      },
+      {
+        "name": "db",
+        "mountPath": "/db"
+      }
+    ]
+  }
+}
